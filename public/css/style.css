@@ -1,0 +1,71 @@
+:root {
+	--color-amarillo: #EAC926;
+	--color-azul: #03264C;
+	--color-celeste: #1259c3;
+	--color-gris-oscuro: #666;
+	--color-gris-claro: #EBEBEB;
+	--color-verde: #39B54A;
+	
+	--font-roboto: 'Roboto';
+
+	--paragraph: 12px;
+	--title: 24px;
+	--prices: 18px;
+	--discounts-description: 18px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: var(--font-roboto);
+}
+
+header {
+	background-color: var(--color-amarillo);
+	font-size: var(--paragraph);
+	padding-bottom: 20px;
+}
+
+header .burger-menu {
+	background-color: var(--color-celeste);
+	padding: 7px;
+	width: 15px;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 45%;
+}
+
+header .logo {
+	width: 130px;
+	padding-top: 25px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+header p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#top-list {
+	margin-bottom: 10px;
+}
+
+.ml-15 {
+	margin-left: 15px;
+}

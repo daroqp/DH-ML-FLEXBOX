@@ -1,11 +1,6 @@
-.banner {
-	display: none;
-}
-
 .card {
 	margin-bottom: 10px;
 	background-color: white;
-	padding: 10px;
 }
 
 .card .card-content {
@@ -14,32 +9,69 @@
     position: relative;
 }
 
-.card .card-content .hsix {
-	display: none;
-}
-
 .card .card-content .icon-truck {
 	border: 1px solid var(--color-verde);
 	border-radius: 50%;
-	padding: 10px;
+	padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 	width: fit-content;
-    
+
 }
 .card .card-content .icon-truck i {
 	color: var(--color-verde);
+    font-size: 16px;
 }
 
-/* Table */
+.card .card-content .product-info {
+    display: flex;
+}
+
+
+.card .card-content .product-info p:nth-child(1) {
+    flex-grow: 0.3;
+}
+
+.card .card-content .product-info p:nth-child(2) {
+    flex-grow: 0.7;
+    font-size: 14px;
+    align-self: flex-end;
+}
+
+
+.card .card-content .product-info .product-name {
+    color: var(--color-gris-claro);
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-1 .section-title {
+    width: 100%;
+}
+
+    /* Table */
+
 @media (min-width: 361px){
 	.card {
 		box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 49%;
 	}
 	
-	.card .card-content .hsix {
+	.card .card-content .product-name {
 		display: block;
 	}	
 }
 
 @media (min-width: 769px){
-
+    .card {
+		box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 24%;
+    }
 }

@@ -40,6 +40,10 @@ nav {
 	display: inline;
 }
 
+.banner {
+	display: none;
+}
+
 /* Table */
 @media (min-width: 361px){
 

@@ -1,0 +1,29 @@
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: var(--font-roboto);
+	background-color: var(--color-gris-claro);
+}
+
+.ml-15 {
+	margin-left: 15px;
+}
+
+main {
+	margin: 0 auto;
+	width: 90%;
+}

@@ -1,0 +1,73 @@
+:root {
+	--color-amarillo: #EAC926;
+	--color-azul: #03264C;
+	--color-celeste: #1259c3;
+	--color-gris-oscuro: #666;
+	--color-gris-claro: #EBEBEB;
+	--color-verde: #39B54A;
+	
+	--font-roboto: 'Roboto';
+
+	--paragraph: 12px;
+	--title: 24px;
+	--prices: 18px;
+	--discounts-description: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: var(--font-roboto);
+	background-color: var(--color-gris-claro);
+}
+
+header {
+	background-color: var(--color-amarillo);
+    padding: 0;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header .logo img {
+    width: 130px;
+    flex-grow: 1;
+}
+
+.main-header .search-block {
+    width: 130px;
+    flex-grow: 1;
+    text-align: right;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.main-header .search-block .search-bar input {
+    font-size: 15px;
+}
+.main-header p {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-nav {
+    display: none;
+}
+
+.burger-menu {
+    display: block;
+    background-color: var(--color-celeste);
+	padding: 7px;
+	width: 25px;
+	color: white;
+	border-radius: 5px;
+    font-size: 10px;
+    margin: 15px auto;
+}

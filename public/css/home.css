@@ -37,6 +37,7 @@
     flex-grow: 0.7;
     font-size: 14px;
     align-self: flex-end;
+    color: var(--color-verde);
 }
 
 
